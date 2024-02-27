@@ -1,0 +1,34 @@
+/* Main container div */
+.container {
+    background-color: #f0f7f4; /* Lighter shade of green */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #c8e6c9; /* Light green */
+}
+
+/* Navbar links */
+.navbar a {
+    color: #006400; /* Dark green */
+}
+
+/* Navbar hover effect */
+.navbar:hover {
+    background-color: #a5d6a7; /* Darker shade of green on hover */
+}
+
+/* Header div */
+.header {
+    background-color: #dcedc8; /* Light green */
+}
+
+/* Other divs */
+.other-div {
+    background-color: #d0e9c6; /* Lighter shade of green */
+}
+
+/* Hover effect on other divs */
+.other-div:hover {
+    background-color: #c8e6c9; /* Slightly darker shade of green on hover */
+}
