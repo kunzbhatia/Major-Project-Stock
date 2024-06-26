@@ -1,0 +1,15 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "STOCKIFY",
+  headline: "New to stock market? Do not worry ",
+  description: "Try our application that will teach you to buy and sell stocks",
+  imgStart: false,
+  img: require("../../images/svg-1.svg"),
+  alt: "phone",
+  dark: true,
+  primary: true,
+  darkText: false,
+};

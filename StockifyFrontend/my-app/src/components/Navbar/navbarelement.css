@@ -1,0 +1,69 @@
+.Nav {
+  background: rgba(46, 52, 69, 1);
+  height: 80px;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.NavLogo {
+  font-weight: bold !important;
+}
+.NavbarContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1100px;
+}
+
+.NavMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+}
+.NavItem {
+  height: 80px;
+}
+
+.NavBtn {
+  display: flex;
+  align-items: center;
+}
+
+.Navbtnlink {
+  border-radius: 50px;
+  background: rgba(33, 208, 179, 1);
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #010606;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.Navbtnlink > a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and(max-width: 960px) {
+  .Nav {
+    transition: 0.8s all ease;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Nav-responsive {
+    display: none;
+  }
+}

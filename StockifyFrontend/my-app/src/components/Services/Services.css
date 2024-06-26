@@ -1,0 +1,93 @@
+.ServicesContainer {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(17, 22, 34, 1);
+  margin-top: -190px;
+}
+.ServicesWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+}
+.ServicesIcon {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 10px;
+  margin-right: 0px !important;
+}
+.ServicesH1 {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(
+    rgba(29, 205, 254, 1),
+    rgba(33, 208, 179, 1),
+    rgba(52, 245, 198, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 64px;
+}
+.ServicesP {
+  font-size: 1rem;
+  text-align: center;
+}
+.ServicesCard {
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 10px;
+  min-height: 300px;
+  padding: 5px;
+  box-shadow: 0 1px 3px rgba(17, 22, 34, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* repsonsiveness */
+
+@media screen and (max-width: 768px) {
+  .ServicesContainer {
+    margin-top: 300px;
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ServicesContainer {
+    height: 1300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ServicesWrapper {
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(17, 22, 34, 1);
+  }
+}
+@media screen and (max-width: 786px) {
+  .ServicesWrapper {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    background-color: rgba(17, 22, 34, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ServicesH1 {
+    font-size: 2rem;
+    background-color: rgba(17, 22, 34, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Services-Elements {
+    background-color: rgba(17, 22, 34, 1);
+  }
+}
