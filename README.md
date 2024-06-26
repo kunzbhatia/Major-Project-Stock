@@ -63,6 +63,7 @@ Key endpoints include:
 - Implement options, futures, IPOs, and expanded stock search.
 - Enhance automatic trading system, incorporate data algorithms.
 - Introduce stop-loss features and advanced charting with indicators.
+- Planned future enhancements include PostgreSQL integration, machine learning models (LSTM, Prophet) for stock market prediction, and data visualization dashboards using Power BI.
 
 ### Resources
 - YouTube tutorials, code examples, design assets, and API documentation.
@@ -71,4 +72,3 @@ Key endpoints include:
 - **Kunal Bhatia**
 - **Siddhesh Kirdat**
 - **Abhimanyu Kapoor**
-
