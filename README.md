@@ -34,11 +34,8 @@ Key endpoints include:
 #### Home Page
 ![Home Page](https://user-images.githubusercontent.com/99636505/227787373-ef2e20f5-8694-426a-a33b-ee6a5a1484a0.png)
 
-#### Signup Page
+#### Signup/Login Page
 ![Signup Page](https://user-images.githubusercontent.com/99636505/227787406-d4160929-ccee-4487-93ef-c28aae9f64c5.png)
-
-#### Login Page
-![Login Page](https://user-images.githubusercontent.com/99636505/227787437-3e43723b-7249-4b4d-a934-653f67336f8a.png)
 
 #### Portfolio Snapshot
 ![Portfolio Snapshot](https://user-images.githubusercontent.com/99636505/227787458-53057a0c-b622-43d1-921f-f76a5f1d549c.png)
