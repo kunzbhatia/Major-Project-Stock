@@ -11,9 +11,6 @@ This interactive web application allows users to simulate real stock market scen
 ### Application Architecture
 The application uses Django for backend REST API endpoints and React for the frontend. Users register, login, manage their portfolio, and execute trades via intuitive interfaces.
 
-### Class Diagram for Backend
-![Backend Class Diagram](https://user-images.githubusercontent.com/99636505/227787642-f676c20d-b577-4e00-8658-cd9bf40feba2.png)
-
 ### Django REST Framework Endpoints
 Key endpoints include:
 - `/buyStock`: Buy a stock.
