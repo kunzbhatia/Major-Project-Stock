@@ -6,7 +6,7 @@
 Stockify is a virtual stock market simulation platform designed to help users practice trading without financial risk, enhancing their investment skills in a safe environment.
 
 ### Summary
-This interactive web application allows users to simulate real stock market scenarios. Users start with a virtual budget of $1,000,000 and can buy/sell stocks, manage their portfolio, and compete in clans. The platform uses real-time market data and offers insights into investment strategies.
+This interactive web application allows users to simulate real stock market scenarios. Users start with a virtual budget of Rs.1,000,000 and can buy/sell stocks, manage their portfolio, and compete in clans. The platform uses real-time market data and offers insights into investment strategies.
 
 ### Application Architecture
 The application uses Django for backend REST API endpoints and React for the frontend. Users register, login, manage their portfolio, and execute trades via intuitive interfaces.
