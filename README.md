@@ -52,10 +52,6 @@ Key endpoints include:
 #### Logout Modal
 ![Logout Modal](https://user-images.githubusercontent.com/99636505/227787588-71204b1d-f7b7-4bf4-abcc-3886100c571a.png)
 
-### Video and Code Links
-- [Working App Video](https://drive.google.com/file/d/10GITcb21ocsYPPB2Y8xurzsWG5ft8mpK/view?usp=share_link)
-- [GitHub Repository](https://github.com/Stockify-Developers/Stockify)
-
 ### Future Scopes
 - Implement options, futures, IPOs, and expanded stock search.
 - Enhance automatic trading system, incorporate data algorithms.
