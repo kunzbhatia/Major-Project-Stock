@@ -1,61 +1,58 @@
 .Nav {
-  background: rgba(46, 52, 69, 1);
-  height: 80px;
-  margin-top: -80px;
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  background-color: #333; /* Navbar background color */
+  padding: 10px 20px;
 }
-.NavLogo {
-  font-weight: bold !important;
-}
+
 .NavbarContainer {
   display: flex;
-  justify-content: space-between;
-  height: 80px;
-  z-index: 1;
+  justify-content: space-between; /* Spread out logo and menu items */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1100px;
 }
 
 .NavMenu {
   display: flex;
+  justify-content: space-evenly; /* Evenly space the navigation items */
   align-items: center;
-  list-style: none;
-  text-align: center;
-  margin-right: -22px;
+  flex-grow: 1; /* Allow NavMenu to take up available space */
 }
+
 .NavItem {
-  height: 80px;
+  list-style: none;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: #ffffff; /* White text */
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.NavLink:hover {
+  color: #00bcd4; /* Highlight color on hover */
 }
 
 .NavBtn {
-  display: flex;
-  align-items: center;
+  margin-left: auto; /* Push login/register buttons to the right */
 }
 
 .Navbtnlink {
-  border-radius: 50px;
-  background: rgba(33, 208, 179, 1);
-  white-space: nowrap;
-  padding: 10px 22px;
-  color: #010606;
-  font-size: 18px;
-  font-weight: bold;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
+  color: #ffffff;
+  background-color: #00bcd4; /* Button background color */
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.Navbtnlink > a {
-  text-decoration: none;
-  color: black;
+.Navbtnlink:hover {
+  background-color: #0192a3; /* Darker shade on hover */
 }
+
+
 @media screen and(max-width: 960px) {
   .Nav {
     transition: 0.8s all ease;

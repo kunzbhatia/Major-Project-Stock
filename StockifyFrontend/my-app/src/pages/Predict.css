@@ -1,0 +1,156 @@
+/* Main container for prediction section */
+.predict-container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .predict-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title Styling */
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Input and button container */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  /* Ticker symbol input styling */
+  .ticker-input {
+    padding: 12px;
+    font-size: 1.2rem;
+    width: 220px;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    outline: none;
+  }
+  
+  .ticker-input:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.6);
+  }
+  
+  /* Button styling */
+  .predict-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .predict-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .predict-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  /* Error message */
+  .error {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  /* Prediction result section */
+  .prediction-result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #34495e;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Prediction details */
+  .prediction-details,
+  .news-container {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+    text-align: center;
+  }
+  
+  .predicted-prices {
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .predicted-prices li {
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  /* Chart container styling */
+  .chart-container {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .predict-container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .input-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .ticker-input {
+      width: 100%;
+    }
+  
+    .predict-button {
+      width: 100%;
+    }
+  }
+  

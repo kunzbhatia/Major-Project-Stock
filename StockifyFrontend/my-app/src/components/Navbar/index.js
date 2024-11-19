@@ -6,6 +6,9 @@ import { getToken } from "../../services/LocalStorageService";
 import { useGetLoggedUserQuery } from "../../services/userAuthApi";
 import { useDispatch } from "react-redux";
 import { setUserInfo } from "../../features/userSlice";
+import { Link } from "react-router-dom";
+
+
 const Navbar = () => {
   const { access_token } = getToken();
   const { data, isSuccess } = useGetLoggedUserQuery(access_token);
@@ -14,6 +17,7 @@ const Navbar = () => {
     email: "",
     name: "",
   });
+
   // Store User Data in Local State
   useEffect(() => {
     if (data && isSuccess) {
@@ -36,6 +40,7 @@ const Navbar = () => {
       );
     }
   }, [data, isSuccess, dispatch]);
+
   return (
     <>
       <div className="Nav">
@@ -46,7 +51,7 @@ const Navbar = () => {
           <div className="NavMenu">
             <div className="Nav-responsive">
               <div className="NavItem">
-                <NavLinks to="about"> About</NavLinks>
+                <NavLinks to="about">About</NavLinks>
               </div>
             </div>
             <div className="Nav-responsive">
@@ -57,6 +62,14 @@ const Navbar = () => {
             <div className="NavItem">
               <NavLinkss to="register">Register</NavLinkss>
             </div>
+            {/* Add the new Predict button */}
+            
+
+            <div className="Nav-responsive">
+  <div className="NavItem">
+    <Link to="/predict" className="NavLink">Predict</Link>
+  </div>
+</div>
           </div>
           {access_token ? (
             <div className="NavBtn">

@@ -11,6 +11,7 @@ import Register from "./pages/Register";
 import Market from "./pages/Market";
 import Portfolio from "./pages/Portfolio";
 import { useSelector } from "react-redux";
+import Predict from './pages/Predict';
 function App() {
   const { access_token } = useSelector((state) => state.auth);
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/Register" element={!access_token? <Register />: <Navigate to='/LogIn'/>} />
         <Route exact path="/Market" element={<Market />}/>
         <Route exact path="/Portfolio" element={<Portfolio />} />
+        <Route path="/predict" element={<Predict />} />
       </Routes>
     </Router>
   );
